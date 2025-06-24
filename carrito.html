@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrito de Compras - tienda</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="navbar-contenido">
+      <div class="logo">
+        <h1>Tienda Celulares</h1>
+      </div>
+      <div class="carrito">
+        <a href="./index.html">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Inicio" class="icono-carrito" />
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="titulo-principal">
+      <h2>Tu Carrito de Compras</h2>
+    </header>
+
+    <section class="carrito-contenido">
+      <table class="tabla-carrito">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+            <th>Eliminar</th>
+          </tr>
+        </thead>
+        <tbody id="carrito-items">
+          <!-- Aquí se insertarán los productos con JS -->
+        </tbody>
+      </table>
+
+      <div class="carrito-total">
+        <p>Total: <span id="total-carrito">$0</span></p>
+        <button class="btn-agregar">Finalizar Compra</button>
+      </div>
+    </section>
+    <script src="./js/carrito.js"></script>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Tienda de Celulares Reparados. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
