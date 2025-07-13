@@ -1,0 +1,9 @@
+[
+  { "id": 1, "nombre": "iPhone 11", "precio": 299000, "img": "./img/iphone 11.jpg" },
+  { "id": 2, "nombre": "Samsung Galaxy A51", "precio": 399999, "img": "./img/samsung galaxy a51.jpg" },
+  { "id": 3, "nombre": "Redmi Note 10", "precio": 499999, "img": "./img/redmi note 10.jpg" },
+  { "id": 4, "nombre": "Moto G9 Plus", "precio": 359999, "img": "./img/motog9plus.webp" },
+  { "id": 5, "nombre": "OnePlus Nord 2", "precio": 279999, "img": "./img/nord plus 2.png" },
+  { "id": 6, "nombre": "iPhone XR", "precio": 449999, "img": "./img/iphone xr.jpg" },
+  { "id": 7, "nombre": "Galaxy S10 Lite", "precio": 389999, "img": "./img/galaxy s10.jpg" }
+]
